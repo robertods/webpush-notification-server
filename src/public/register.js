@@ -1,7 +1,7 @@
 /* eslint-disable no-restricted-syntax */
-const registerUrl = 'http://localhost:8000/register';
-const serviceWorkerUrl = 'http://localhost:8000/serviceWorker.js';
-const publicVapidKey = 'YOUR_PUBLIC_KEY';
+const registerUrl = 'https://robds-webpush.herokuapp.com/register';
+const serviceWorkerUrl = 'https://robds-webpush.herokuapp.com/serviceWorker.js';
+const publicVapidKey = 'BDnGH008RF5sPD0qQcnWngcqhx1lOlCQLLLmPZALFykvwsW0BplUQT_cJxHrHPrFFuqGpzQQNZclenl_kbitXaY';
 
 const urlBase64ToUint8Array = base64String => {
   const padding = '='.repeat((4 - (base64String.length % 4)) % 4);
