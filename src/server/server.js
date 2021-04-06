@@ -12,6 +12,6 @@ app.use(bodyParser.urlencoded({ extended: true }));
 setRouting(app);
 setStatics(app);
 
-app.listen(process.env.EXPRESS_PORT, () => {
+app.listen(process.env.PORT, () => {
   console.log(`Webpush notification server up in ${ process.env.EXPRESS_PORT }`);
 });
