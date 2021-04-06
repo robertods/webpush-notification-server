@@ -2,7 +2,7 @@
   <head>
     <title>Webpush Server</title>
     <script>
-      const sendEndpoint = "http://localhost:8000/send";
+      const sendEndpoint = "https://robds-webpush.herokuapp.com/send";
       const sendNotification = async () => {
         const data = document.getElementById("notification").value;
         const res = await fetch(sendEndpoint, {
